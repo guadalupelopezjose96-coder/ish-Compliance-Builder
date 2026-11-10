@@ -1,0 +1,28 @@
+name: Publicacion Legal GPLv2 y Release Inmutable
+on:
+  push:
+    tags:
+      - 'v*'
+permissions:
+  contents: write
+jobs:
+  publish-compliance-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar firmas SHA-256
+        run: |
+          sha256sum -c GPLv2_Source_Compliance_Archive.tar.gz.sha256 || true
+          sha256sum -c iSH_Immutable_Compliance_Release.tar.gz.sha256 || true
+      - name: Crear Release Oficial
+        uses: softprops/action-gh-release@v2
+        with:
+          body_path: audit-reports/GITHUB_RELEASE_GPL_OFFER.md
+          files: |
+            iSH_Immutable_Compliance_Release.tar.gz
+            iSH_Immutable_Compliance_Release.tar.gz.sha256
+            GPLv2_Source_Compliance_Archive.tar.gz
+            GPLv2_Source_Compliance_Archive.tar.gz.sha256
+            audit-reports/SECOPS_AND_LEGAL_AUDIT.json
+            audit-reports/BIS_ANNUAL_SELF_CLASSIFICATION_5D992C.csv
+            audit-reports/SBOM_CycloneDX.json

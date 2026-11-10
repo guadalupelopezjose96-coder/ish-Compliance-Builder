@@ -1,0 +1,422 @@
+{
+  "alpine-baselayout": {
+    "binary_package": "alpine-baselayout-data",
+    "version": "3.4.3-r1",
+    "license": "GPL-2.0-only",
+    "commit": "65502ca9379dd29d1ac4b0bf0dcf03a3dd1b324a",
+    "upstream_url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout"
+  },
+  "apk-tools": {
+    "binary_package": "apk-tools",
+    "version": "2.14.4-r0",
+    "license": "GPL-2.0-only",
+    "commit": "e4f9746f8b36eadb45953e52ee202154be55e7aa",
+    "upstream_url": "https://gitlab.alpinelinux.org/alpine/apk-tools"
+  },
+  "bash": {
+    "binary_package": "bash",
+    "version": "5.2.15-r5",
+    "license": "GPL-3.0-or-later",
+    "commit": "2aa177cc9c474c6af1015efeb7ef4f83476e631a",
+    "upstream_url": "https://www.gnu.org/software/bash/bash.html"
+  },
+  "binutils": {
+    "binary_package": "binutils",
+    "version": "2.40-r8",
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause",
+    "commit": "c1d240ff7c9ba980690461330eb161b9edce18b6",
+    "upstream_url": "https://www.gnu.org/software/binutils/"
+  },
+  "util-linux": {
+    "binary_package": "wipefs",
+    "version": "2.38.1-r8",
+    "license": "GPL-2.0-or-later",
+    "commit": "c7de7fac9ae57f268781a733984e74a36f867d1c",
+    "upstream_url": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git"
+  },
+  "busybox": {
+    "binary_package": "ssl_client",
+    "version": "1.36.1-r7",
+    "license": "GPL-2.0-only",
+    "commit": "9b70b851429a267ba8e8c7cbf1814e1ad270b5b1",
+    "upstream_url": "https://busybox.net/"
+  },
+  "coreutils": {
+    "binary_package": "coreutils",
+    "version": "9.3-r2",
+    "license": "GPL-3.0-or-later",
+    "commit": "db9d0e6c167feb632471ca7b476300790f39fd1b",
+    "upstream_url": "https://www.gnu.org/software/coreutils/"
+  },
+  "dcron": {
+    "binary_package": "dcron",
+    "version": "4.5-r9",
+    "license": "GPL-2.0-or-later",
+    "commit": "dcf926d126ee921df71282780cae6c160fe30783",
+    "upstream_url": "https://github.com/dubiousjim/dcron"
+  },
+  "e2fsprogs": {
+    "binary_package": "libcom_err",
+    "version": "1.47.0-r2",
+    "license": "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT",
+    "commit": "f795d18f2f028733a4a0cb0cddf582da77d5cd6c",
+    "upstream_url": "https://e2fsprogs.sourceforge.net/"
+  },
+  "findutils": {
+    "binary_package": "findutils",
+    "version": "4.9.0-r5",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/findutils/"
+  },
+  "gcc": {
+    "binary_package": "libstdc++-dev",
+    "version": "12.2.1_git20220924-r10",
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "commit": "079f8cf11099e978d12da6dd6b44d59ac706ad3e",
+    "upstream_url": "https://gcc.gnu.org"
+  },
+  "gawk": {
+    "binary_package": "gawk",
+    "version": "5.2.2-r0",
+    "license": "GPL-3.0-or-later",
+    "commit": "cefe67f85e722ac838ffc07984f19213f199918e",
+    "upstream_url": "https://www.gnu.org/software/gawk/gawk.html"
+  },
+  "gdbm": {
+    "binary_package": "gdbm",
+    "version": "1.23-r1",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/gdbm/"
+  },
+  "git": {
+    "binary_package": "git",
+    "version": "2.40.4-r0",
+    "license": "GPL-2.0-only",
+    "commit": "fac90e7a50c5a19dc7623447fdb29d4f8b6309a8",
+    "upstream_url": "https://www.git-scm.com/"
+  },
+  "gmp": {
+    "binary_package": "gmp",
+    "version": "6.2.1-r3",
+    "license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://gmplib.org/"
+  },
+  "gnupg": {
+    "binary_package": "gpgv",
+    "version": "2.4.4-r0",
+    "license": "GPL-3.0-or-later",
+    "commit": "bc817a55b138a4b32a541eae7f6462e060dfc07f",
+    "upstream_url": "https://www.gnupg.org/"
+  },
+  "gnutls": {
+    "binary_package": "gnutls",
+    "version": "3.8.4-r0",
+    "license": "LGPL-2.1-or-later",
+    "commit": "be86360cb2deae629895b363b8be718b9425dc47",
+    "upstream_url": "https://www.gnutls.org/"
+  },
+  "grep": {
+    "binary_package": "grep",
+    "version": "3.10-r1",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/grep/grep.html"
+  },
+  "gzip": {
+    "binary_package": "gzip",
+    "version": "1.12-r1",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/gzip/"
+  },
+  "htop": {
+    "binary_package": "htop",
+    "version": "3.2.2-r1",
+    "license": "GPL-2.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://htop.dev/"
+  },
+  "iproute2": {
+    "binary_package": "iproute2-tc",
+    "version": "6.3.0-r0",
+    "license": "GPL-2.0-or-later",
+    "commit": "25bcd23b792797da5a7d5f1b6f3189aa69bd84a4",
+    "upstream_url": "https://wiki.linuxfoundation.org/networking/iproute2"
+  },
+  "iptables": {
+    "binary_package": "iptables",
+    "version": "1.8.9-r2",
+    "license": "GPL-2.0-or-later",
+    "commit": "f23946ab5d2ce25bca2c7bb56adb89ad893d7caf",
+    "upstream_url": "https://www.netfilter.org/projects/iptables/index.html"
+  },
+  "less": {
+    "binary_package": "less",
+    "version": "633-r0",
+    "license": "GPL-3.0-or-later OR BSD-2-Clause",
+    "commit": "c8fb97638a480aa2bbe03b990b819f5d6bb70291",
+    "upstream_url": "https://www.greenwoodsoftware.com/less/"
+  },
+  "acl": {
+    "binary_package": "libacl",
+    "version": "2.3.1-r3",
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://savannah.nongnu.org/projects/acl"
+  },
+  "libassuan": {
+    "binary_package": "libassuan",
+    "version": "2.5.6-r0",
+    "license": "LGPL-2.1-or-later",
+    "commit": "b9d3a2d2e35a6de2d2e9a9ea1a956495f7911687",
+    "upstream_url": "https://www.gnupg.org/software/libassuan/index.html"
+  },
+  "attr": {
+    "binary_package": "libattr",
+    "version": "2.5.1-r4",
+    "license": "LGPL-2.1-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://savannah.nongnu.org/projects/attr"
+  },
+  "libcap-ng": {
+    "binary_package": "libcap-ng",
+    "version": "0.8.3-r3",
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://people.redhat.com/sgrubb/libcap-ng/index.html"
+  },
+  "libcap": {
+    "binary_package": "libcap2",
+    "version": "2.69-r0",
+    "license": "BSD-3-Clause OR GPL-2.0-only",
+    "commit": "54b3f085656df6bcd88c05ea1559642010166d16",
+    "upstream_url": "https://sites.google.com/site/fullycapable/"
+  },
+  "elfutils": {
+    "binary_package": "libelf",
+    "version": "0.189-r2",
+    "license": "GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )",
+    "commit": "2238c564ba969c8bb605c16be5d139e7375306e4",
+    "upstream_url": "http://elfutils.org/"
+  },
+  "libgcrypt": {
+    "binary_package": "libgcrypt",
+    "version": "1.10.2-r1",
+    "license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnupg.org/"
+  },
+  "libgpg-error": {
+    "binary_package": "libgpg-error",
+    "version": "1.47-r1",
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnupg.org/"
+  },
+  "libidn2": {
+    "binary_package": "libidn2",
+    "version": "2.3.4-r1",
+    "license": "GPL-2.0-or-later AND LGPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/libidn#libidn2"
+  },
+  "gettext": {
+    "binary_package": "libintl",
+    "version": "0.21.1-r7",
+    "license": "LGPL-2.1-or-later",
+    "commit": "9f0e67f6c3b60e42080fbe33c98561e80ed6c6c6",
+    "upstream_url": "https://www.gnu.org/software/gettext/gettext.html"
+  },
+  "libksba": {
+    "binary_package": "libksba",
+    "version": "1.6.4-r0",
+    "license": "LGPL-3.0-only AND GPL-2.0-only AND GPL-3.0-only",
+    "commit": "273642c69ee6ca24b336603bc6a067c67505a117",
+    "upstream_url": "https://www.gnupg.org/software/libksba/index.html"
+  },
+  "libmnl": {
+    "binary_package": "libmnl",
+    "version": "1.0.5-r1",
+    "license": "LGPL-2.1-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.netfilter.org/projects/libmnl/"
+  },
+  "libnftnl": {
+    "binary_package": "libnftnl",
+    "version": "1.2.5-r1",
+    "license": "GPL-2.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://netfilter.org/projects/libnftnl"
+  },
+  "procps-ng": {
+    "binary_package": "procps-ng",
+    "version": "4.0.4-r0",
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "commit": "844291c27bac99e0d91aa263682192d9cd723bfe",
+    "upstream_url": "https://gitlab.com/procps-ng/procps"
+  },
+  "libtasn1": {
+    "binary_package": "libtasn1",
+    "version": "4.20.0-r0",
+    "license": "LGPL-2.1-or-later",
+    "commit": "38e094cc999fcf19b82e060291e18cefa3b6e546",
+    "upstream_url": "https://www.gnu.org/software/gnutls/"
+  },
+  "libunistring": {
+    "binary_package": "libunistring",
+    "version": "1.1-r1",
+    "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/libunistring/"
+  },
+  "lz4": {
+    "binary_package": "lz4-libs",
+    "version": "1.9.4-r4",
+    "license": "BSD-2-Clause AND GPL-2.0-only",
+    "commit": "8d364a954255bd5eb2d0047a1ef15d2409799576",
+    "upstream_url": "https://github.com/lz4/lz4"
+  },
+  "make": {
+    "binary_package": "make",
+    "version": "4.4.1-r1",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/make"
+  },
+  "mpc1": {
+    "binary_package": "mpc1",
+    "version": "1.3.1-r1",
+    "license": "LGPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "http://www.multiprecision.org/"
+  },
+  "mpfr4": {
+    "binary_package": "mpfr4",
+    "version": "4.2.0_p12-r0",
+    "license": "LGPL-3.0-or-later",
+    "commit": "8910287059187d6e83a13dd2078a2a42ea2121f4",
+    "upstream_url": "https://www.mpfr.org/"
+  },
+  "musl-locales": {
+    "binary_package": "musl-locales",
+    "version": "0.1.0-r1",
+    "license": "LGPL-3.0-only",
+    "commit": "65780305dd2517157357121ccddbe95c84e6d5a4",
+    "upstream_url": "https://git.adelielinux.org/adelie/musl-locales/-/wikis/home"
+  },
+  "musl": {
+    "binary_package": "musl-utils",
+    "version": "1.2.4-r3",
+    "license": "MIT AND BSD-2-Clause AND GPL-2.0-or-later",
+    "commit": "17c73e0c9651fc963a977d7fd2fcd25432e43e8f",
+    "upstream_url": "https://musl.libc.org/"
+  },
+  "nano": {
+    "binary_package": "nano",
+    "version": "7.2-r1",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.nano-editor.org"
+  },
+  "nettle": {
+    "binary_package": "nettle",
+    "version": "3.8.1-r2",
+    "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "commit": "9b0c8214b2f3e9bbbf92a70b360768d8308ab3cf",
+    "upstream_url": "https://www.lysator.liu.se/~nisse/nettle/"
+  },
+  "npth": {
+    "binary_package": "npth",
+    "version": "1.6-r4",
+    "license": "LGPL-2.0-or-later",
+    "commit": "9b0c8214b2f3e9bbbf92a70b360768d8308ab3cf",
+    "upstream_url": "https://gnupg.org/related_software/npth/"
+  },
+  "patch": {
+    "binary_package": "patch",
+    "version": "2.7.6-r10",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/patch/patch.html"
+  },
+  "pinentry": {
+    "binary_package": "pinentry",
+    "version": "1.2.1-r1",
+    "license": "GPL-2.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnupg.org/aegypten2/"
+  },
+  "readline": {
+    "binary_package": "readline",
+    "version": "8.2.1-r1",
+    "license": "GPL-2.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://tiswww.cwru.edu/php/chet/readline/rltop.html"
+  },
+  "rsync": {
+    "binary_package": "rsync",
+    "version": "3.4.0-r0",
+    "license": "GPL-3.0-or-later",
+    "commit": "063919d1a29de5e1bbd61f57bf649032e8199266",
+    "upstream_url": "https://rsync.samba.org/"
+  },
+  "pax-utils": {
+    "binary_package": "scanelf",
+    "version": "1.3.7-r1",
+    "license": "GPL-2.0-only",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities"
+  },
+  "sed": {
+    "binary_package": "sed",
+    "version": "4.9-r2",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/sed"
+  },
+  "tar": {
+    "binary_package": "tar",
+    "version": "1.34-r3",
+    "license": "GPL-3.0-or-later",
+    "commit": "84a227baf001b6e0208e3352b294e4d7a40e93de",
+    "upstream_url": "https://www.gnu.org/software/tar/"
+  },
+  "tree": {
+    "binary_package": "tree",
+    "version": "2.1.1-r0",
+    "license": "GPL-2.0-or-later",
+    "commit": "cfc4f59fdbd6126fb9e2c81dee888253fd3d8d45",
+    "upstream_url": "https://oldmanprogrammer.net/source.php?dir=projects/tree"
+  },
+  "wget": {
+    "binary_package": "wget",
+    "version": "1.21.4-r0",
+    "license": "GPL-3.0-or-later WITH OpenSSL-Exception",
+    "commit": "fec83936dfe0f087aa0dcdfd244d5ffb4f7ed6eb",
+    "upstream_url": "https://www.gnu.org/software/wget/wget.html"
+  },
+  "wireguard-tools": {
+    "binary_package": "wireguard-tools-wg-quick",
+    "version": "1.0.20210914-r3",
+    "license": "GPL-2.0-only",
+    "commit": "106ac3d5f6588da846379948ebc393ceff86af32",
+    "upstream_url": "https://www.wireguard.com"
+  },
+  "xz": {
+    "binary_package": "xz-libs",
+    "version": "5.4.3-r1",
+    "license": "GPL-2.0-or-later AND Public-Domain AND LGPL-2.1-or-later",
+    "commit": "6775e305a8b875e16b8ee6d078c3619fcbd23fea",
+    "upstream_url": "https://tukaani.org/xz"
+  },
+  "zstd": {
+    "binary_package": "zstd-libs",
+    "version": "1.5.5-r4",
+    "license": "BSD-3-Clause GPL-2.0-or-later",
+    "commit": "757fa45cd1c12837ef0c8c4db7537cdc71de45a4",
+    "upstream_url": "https://www.zstd.net/"
+  }
+}

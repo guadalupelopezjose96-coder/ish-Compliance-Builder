@@ -1,0 +1,9 @@
+<!-- Insertar dentro del diccionario principal <dict> de Info.plist en Xcode -->
+<key>ITSAppUsesNonExemptEncryption</key>
+<true/>
+<key>ITSEncryptionExportComplianceCode</key>
+<string>ECCN-5D992C-SELF-CLASSIFIED</string>
+<key>UIFileSharingEnabled</key>
+<false/>
+<key>LSSupportsOpeningDocumentsInPlace</key>
+<true/>

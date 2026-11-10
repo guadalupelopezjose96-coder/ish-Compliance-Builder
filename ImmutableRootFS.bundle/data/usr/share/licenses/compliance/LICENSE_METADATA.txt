@@ -1,0 +1,5 @@
+===================================================================
+[POLITICA DE SEGURIDAD Y CUMPLIMIENTO ACTIVA]
+La instalacion dinamica de binarios (apk) esta bloqueada.
+Inventario legal disponible en: /usr/share/licenses/compliance/
+===================================================================

@@ -1,0 +1,2 @@
+"PRODUCT NAME","MODEL/SERIES NUMBER","MANUFACTURER","ECCN","AUTHORIZATION TYPE","ITEM TYPE","CRYPTOSYSTEMS"
+"iSH Enterprise Linux Environment","3.20-i386","Independent Developer","5D992.c","MMKT","Client Application / OS Emulator","AES-256-GCM, ChaCha20-Poly1305, Ed25519, RSA-4096, SHA-256 (OpenSSL 3.x / OpenSSH)"

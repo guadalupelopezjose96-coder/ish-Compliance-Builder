@@ -1,0 +1,23 @@
+{
+  "status": "PASSED",
+  "total_elf32_x86_binaries_verified": 141,
+  "world_writable_violations": [],
+  "suid_sgid_binaries": [
+    "/bin/umount",
+    "/bin/mount",
+    "/sbin/unix_chkpwd"
+  ],
+  "export_control_bis": {
+    "eccn": "5D992.c",
+    "ITSAppUsesNonExemptEncryption": true,
+    "crypto_libraries_detected": [
+      "libcrypto.so.3",
+      "libssl.so.3",
+      "openssh"
+    ]
+  },
+  "open_source_compliance": {
+    "core_license": "GPL-2.0-only",
+    "app_store_guideline_2_5_2": "COMPLIANT_IMMUTABLE_ROOTFS"
+  }
+}

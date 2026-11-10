@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "==================================================================="
+echo "[POLITICA DE SEGURIDAD Y CUMPLIMIENTO ACTIVA]"
+echo "La instalacion dinamica de binarios (apk) esta bloqueada."
+echo "Inventario legal disponible en: /usr/share/licenses/compliance/"
+echo "==================================================================="
+exit 1

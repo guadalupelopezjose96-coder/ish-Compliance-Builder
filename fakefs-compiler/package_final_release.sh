@@ -1,0 +1,32 @@
+#!/bin/sh
+set -eu
+
+BASE_DIR="/root/ish-Compliance-Builder"
+REPORT_DIR="${BASE_DIR}/audit-reports"
+FINAL_ARCHIVE="${BASE_DIR}/iSH_Immutable_Compliance_Release.tar.gz"
+
+cat << 'NOTICE' > "${REPORT_DIR}/THIRD_PARTY_NOTICES_AND_DISCLAIMERS.txt"
+AVISO DE CUMPLIMIENTO DE CODIGO ABIERTO Y DESCARGO DE MARCAS
+============================================================
+1. LICENCIA GPLv2: El motor de traduccion de llamadas al sistema se basa en el
+   proyecto iSH, distribuido bajo la licencia GNU General Public License v2.0.
+2. PAQUETES ALPINE LINUX: Las licencias individuales y el SBOM CycloneDX v1.5
+   de los 208 paquetes se encuentran en /usr/share/licenses/compliance/.
+3. DESCARGO DE MARCAS: Este producto es un desarrollo independiente y no esta
+   afiliado, respaldado ni patrocinado por los autores originales de iSH,
+   Alpine Linux ni Apple Inc. Linux(R) es marca registrada de Linus Torvalds.
+4. CONTROL DE EXPORTACION (EAR/BIS): Clasificado bajo ECCN 5D992.c.
+NOTICE
+
+cp -f /usr/share/licenses/compliance/SBOM_CycloneDX.json "${REPORT_DIR}/"
+cp -f /usr/share/licenses/compliance/INSTALLED_PACKAGES_AND_LICENSES.txt "${REPORT_DIR}/"
+
+tar -czf "${FINAL_ARCHIVE}" \
+    -C "${BASE_DIR}" ImmutableRootFS.bundle audit-reports
+
+sha256sum "${FINAL_ARCHIVE}" > "${FINAL_ARCHIVE}.sha256"
+echo "=========================================================="
+echo "[RELEASE LISTO] Paquete final generado y firmado:"
+ls -lh "${FINAL_ARCHIVE}" "${FINAL_ARCHIVE}.sha256"
+cat "${FINAL_ARCHIVE}.sha256"
+echo "=========================================================="

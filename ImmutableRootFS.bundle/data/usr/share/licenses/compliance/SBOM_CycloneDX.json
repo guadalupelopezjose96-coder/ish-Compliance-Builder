@@ -1,0 +1,2719 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-10T03:27:41.231490+00:00",
+    "component": {
+      "type": "operating-system",
+      "name": "iSH-Alpine-Immutable-RootFS",
+      "version": "3.20"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "agetty",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/agetty@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "alpine-baselayout",
+      "version": "3.4.3-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/alpine-baselayout@3.4.3-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "alpine-baselayout-data",
+      "version": "3.4.3-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/alpine-baselayout-data@3.4.3-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "alpine-keys",
+      "version": "2.4-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/alpine-keys@2.4-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "apk-tools",
+      "version": "2.14.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/apk-tools@2.14.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "bash",
+      "version": "5.2.15-r5",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/bash@5.2.15-r5?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "binutils",
+      "version": "2.40-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/binutils@2.40-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "blkid",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-1.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/blkid@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "brotli-libs",
+      "version": "1.0.9-r14",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/brotli-libs@1.0.9-r14?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "build-base",
+      "version": "0.5-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/build-base@0.5-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "busybox",
+      "version": "1.36.1-r7",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/busybox@1.36.1-r7?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "busybox-binsh",
+      "version": "1.36.1-r7",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/busybox-binsh@1.36.1-r7?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "c-ares",
+      "version": "1.19.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/c-ares@1.19.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "ca-certificates",
+      "version": "20261020-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0 AND MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/ca-certificates@20261020-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "ca-certificates-bundle",
+      "version": "20261020-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0 AND MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/ca-certificates-bundle@20261020-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "cargo",
+      "version": "1.71.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 MIT UNLICENSE"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/cargo@1.71.1-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "cfdisk",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/cfdisk@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "coreutils",
+      "version": "9.3-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/coreutils@9.3-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "curl",
+      "version": "8.12.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "curl"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/curl@8.12.1-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "dcron",
+      "version": "4.5-r9",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/dcron@4.5-r9?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "doas",
+      "version": "6.8.2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/doas@6.8.2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "dropbear",
+      "version": "2022.83-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/dropbear@2022.83-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "e2fsprogs",
+      "version": "1.47.0-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/e2fsprogs@1.47.0-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "e2fsprogs-libs",
+      "version": "1.47.0-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/e2fsprogs-libs@1.47.0-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "file",
+      "version": "5.45-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/file@5.45-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "findmnt",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/findmnt@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "findutils",
+      "version": "4.9.0-r5",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/findutils@4.9.0-r5?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "flock",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/flock@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "fortify-headers",
+      "version": "1.1-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "0BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/fortify-headers@1.1-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "fstrim",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/fstrim@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "fts",
+      "version": "1.2.7-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/fts@1.2.7-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "g++",
+      "version": "12.2.1_git20220924-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/g++@12.2.1_git20220924-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gawk",
+      "version": "5.2.2-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gawk@5.2.2-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gcc",
+      "version": "12.2.1_git20220924-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gcc@12.2.1_git20220924-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gdbm",
+      "version": "1.23-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gdbm@1.23-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "git",
+      "version": "2.40.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/git@2.40.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gmp",
+      "version": "6.2.1-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-or-later OR GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gmp@6.2.1-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gnupg",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gnupg@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gnupg-dirmngr",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gnupg-dirmngr@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gnupg-gpgconf",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gnupg-gpgconf@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gnupg-keyboxd",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gnupg-keyboxd@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gnupg-utils",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gnupg-utils@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gnupg-wks-client",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gnupg-wks-client@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gnutls",
+      "version": "3.8.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gnutls@3.8.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "go",
+      "version": "1.20.11-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/go@1.20.11-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gpg",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gpg@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gpg-agent",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gpg-agent@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gpg-wks-server",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gpg-wks-server@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gpgsm",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gpgsm@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gpgv",
+      "version": "2.4.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gpgv@2.4.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "grep",
+      "version": "3.10-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/grep@3.10-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "gzip",
+      "version": "1.12-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/gzip@1.12-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "hexdump",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-4-Clause-UC"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/hexdump@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "htop",
+      "version": "3.2.2-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/htop@3.2.2-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "icu-data-en",
+      "version": "73.2-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "ICU"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/icu-data-en@73.2-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "icu-libs",
+      "version": "73.2-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "ICU"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/icu-libs@73.2-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "iproute2",
+      "version": "6.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/iproute2@6.3.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "iproute2-minimal",
+      "version": "6.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/iproute2-minimal@6.3.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "iproute2-ss",
+      "version": "6.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/iproute2-ss@6.3.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "iproute2-tc",
+      "version": "6.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/iproute2-tc@6.3.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "iptables",
+      "version": "1.8.9-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/iptables@1.8.9-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "isl26",
+      "version": "0.26-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/isl26@0.26-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "jq",
+      "version": "1.6-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/jq@1.6-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "less",
+      "version": "633-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later OR BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/less@633-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libacl",
+      "version": "2.3.1-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later AND GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libacl@2.3.1-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libassuan",
+      "version": "2.5.6-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libassuan@2.5.6-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libatomic",
+      "version": "12.2.1_git20220924-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libatomic@12.2.1_git20220924-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libattr",
+      "version": "2.5.1-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libattr@2.5.1-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libblkid",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libblkid@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libbz2",
+      "version": "1.0.8-r5",
+      "licenses": [
+        {
+          "license": {
+            "name": "bzip2-1.0.6"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libbz2@1.0.8-r5?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libc-dev",
+      "version": "0.7.2-r5",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause AND BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libc-dev@0.7.2-r5?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libc-utils",
+      "version": "0.7.2-r5",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause AND BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libc-utils@0.7.2-r5?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libcap-ng",
+      "version": "0.8.3-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libcap-ng@0.8.3-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libcap2",
+      "version": "2.69-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause OR GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libcap2@2.69-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libcom_err",
+      "version": "1.47.0-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libcom_err@1.47.0-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libcrypto3",
+      "version": "3.1.8-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libcrypto3@3.1.8-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libcurl",
+      "version": "8.12.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "curl"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libcurl@8.12.1-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libeconf",
+      "version": "0.5.2-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libeconf@0.5.2-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libedit",
+      "version": "20221030.3.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libedit@20221030.3.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libelf",
+      "version": "0.189-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libelf@0.189-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libevent",
+      "version": "2.1.12-r6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libevent@2.1.12-r6?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libexpat",
+      "version": "2.7.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libexpat@2.7.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libfdisk",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libfdisk@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libffi",
+      "version": "3.4.4-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libffi@3.4.4-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libgcc",
+      "version": "12.2.1_git20220924-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libgcc@12.2.1_git20220924-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libgcrypt",
+      "version": "1.10.2-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later AND GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libgcrypt@1.10.2-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libgomp",
+      "version": "12.2.1_git20220924-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libgomp@12.2.1_git20220924-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libgpg-error",
+      "version": "1.47-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libgpg-error@1.47-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libidn2",
+      "version": "2.3.4-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libidn2@2.3.4-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libintl",
+      "version": "0.21.1-r7",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libintl@0.21.1-r7?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libksba",
+      "version": "1.6.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only AND GPL-2.0-only AND GPL-3.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libksba@1.6.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libldap",
+      "version": "2.6.5-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "OLDAP-2.8"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libldap@2.6.5-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libmagic",
+      "version": "5.45-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libmagic@5.45-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libmnl",
+      "version": "1.0.5-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libmnl@1.0.5-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libmount",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libmount@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libncursesw",
+      "version": "6.4_p20230506-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "X11"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libncursesw@6.4_p20230506-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libnftnl",
+      "version": "1.2.5-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libnftnl@1.2.5-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libpanelw",
+      "version": "6.4_p20230506-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "X11"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libpanelw@6.4_p20230506-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libpq",
+      "version": "15.13-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "PostgreSQL"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libpq@15.13-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libproc2",
+      "version": "4.0.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libproc2@4.0.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libpsl",
+      "version": "0.21.5-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libpsl@0.21.5-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libsasl",
+      "version": "2.1.28-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "custom"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libsasl@2.1.28-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libsmartcols",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libsmartcols@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libssl3",
+      "version": "3.1.8-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libssl3@3.1.8-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libstdc++",
+      "version": "12.2.1_git20220924-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libstdc++@12.2.1_git20220924-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libstdc++-dev",
+      "version": "12.2.1_git20220924-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libstdc++-dev@12.2.1_git20220924-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libtasn1",
+      "version": "4.20.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libunistring",
+      "version": "1.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later OR LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libunistring@1.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libuuid",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libuuid@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libxml2",
+      "version": "2.11.8-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libxml2@2.11.8-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "libxxhash",
+      "version": "0.8.2-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/libxxhash@0.8.2-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "linux-pam",
+      "version": "1.5.2-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/linux-pam@1.5.2-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "llvm16-libs",
+      "version": "16.0.6-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/llvm16-libs@16.0.6-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "logger",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-4-Clause-UC"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/logger@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "losetup",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/losetup@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "lsblk",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/lsblk@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "lz4-libs",
+      "version": "1.9.4-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause AND GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/lz4-libs@1.9.4-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "make",
+      "version": "4.4.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/make@4.4.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "mcookie",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/mcookie@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "mount",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/mount@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "mpc1",
+      "version": "1.3.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/mpc1@1.3.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "mpdecimal",
+      "version": "2.5.1-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/mpdecimal@2.5.1-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "mpfr4",
+      "version": "4.2.0_p12-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/mpfr4@4.2.0_p12-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "musl",
+      "version": "1.2.4-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/musl@1.2.4-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "musl-dev",
+      "version": "1.2.4-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/musl-dev@1.2.4-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "musl-locales",
+      "version": "0.1.0-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/musl-locales@0.1.0-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "musl-utils",
+      "version": "1.2.4-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT AND BSD-2-Clause AND GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/musl-utils@1.2.4-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "nano",
+      "version": "7.2-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/nano@7.2-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "ncurses-terminfo-base",
+      "version": "6.4_p20230506-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "X11"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/ncurses-terminfo-base@6.4_p20230506-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "nettle",
+      "version": "3.8.1-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later OR LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/nettle@3.8.1-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "nghttp2-libs",
+      "version": "1.57.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/nghttp2-libs@1.57.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "nginx",
+      "version": "1.24.0-r7",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/nginx@1.24.0-r7?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "nginx-vim",
+      "version": "1.24.0-r7",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/nginx-vim@1.24.0-r7?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "nodejs",
+      "version": "18.20.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/nodejs@18.20.1-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "npm",
+      "version": "9.6.6-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Artistic-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/npm@9.6.6-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "npth",
+      "version": "1.6-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/npth@1.6-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "oniguruma",
+      "version": "6.9.8-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/oniguruma@6.9.8-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openresolv",
+      "version": "3.13.2-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openresolv@3.13.2-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssh",
+      "version": "9.3_p2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssh@9.3_p2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssh-client-common",
+      "version": "9.3_p2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssh-client-common@9.3_p2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssh-client-default",
+      "version": "9.3_p2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssh-client-default@9.3_p2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssh-keygen",
+      "version": "9.3_p2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssh-keygen@9.3_p2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssh-server",
+      "version": "9.3_p2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssh-server@9.3_p2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssh-server-common",
+      "version": "9.3_p2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssh-server-common@9.3_p2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssh-sftp-server",
+      "version": "9.3_p2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssh-sftp-server@9.3_p2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "openssl",
+      "version": "3.1.8-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/openssl@3.1.8-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "p11-kit",
+      "version": "0.24.1-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/p11-kit@0.24.1-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "partx",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/partx@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "patch",
+      "version": "2.7.6-r10",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/patch@2.7.6-r10?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "pcre",
+      "version": "8.45-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/pcre@8.45-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "pcre2",
+      "version": "10.42-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/pcre2@10.42-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "pinentry",
+      "version": "1.2.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/pinentry@1.2.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "popt",
+      "version": "1.19-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/popt@1.19-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "postgresql-client",
+      "version": "13.11-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "PostgreSQL"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/postgresql-client@13.11-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "procps-ng",
+      "version": "4.0.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/procps-ng@4.0.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-appdirs",
+      "version": "1.4.4-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-appdirs@1.4.4-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-distlib",
+      "version": "0.3.1-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-distlib@0.3.1-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-filelock",
+      "version": "3.0.12-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Unlicense"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-filelock@3.0.12-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-packaging",
+      "version": "23.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 AND BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-packaging@23.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-packaging-pyc",
+      "version": "23.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 AND BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-packaging-pyc@23.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-parsing",
+      "version": "3.0.9-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-parsing@3.0.9-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-parsing-pyc",
+      "version": "3.0.9-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-parsing-pyc@3.0.9-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-pip",
+      "version": "23.1.2-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-pip@23.1.2-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-pip-pyc",
+      "version": "23.1.2-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-pip-pyc@23.1.2-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-psutil",
+      "version": "5.9.5-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-psutil@5.9.5-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-psutil-pyc",
+      "version": "5.9.5-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-psutil-pyc@5.9.5-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-setuptools",
+      "version": "70.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-setuptools@70.3.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-setuptools-pyc",
+      "version": "70.3.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-setuptools-pyc@70.3.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-six",
+      "version": "1.15.0-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-six@1.15.0-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "py3-virtualenv",
+      "version": "20.4.2-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/py3-virtualenv@20.4.2-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "pyc",
+      "version": "0.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/pyc@0.1-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "python3",
+      "version": "3.11.12-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/python3@3.11.12-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "python3-pyc",
+      "version": "3.11.12-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/python3-pyc@3.11.12-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "python3-pycache-pyc0",
+      "version": "3.11.12-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/python3-pycache-pyc0@3.11.12-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "readline",
+      "version": "8.2.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/readline@8.2.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "rsync",
+      "version": "3.4.0-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/rsync@3.4.0-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "runuser",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/runuser@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "rust",
+      "version": "1.71.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0 AND MIT"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/rust@1.71.1-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "scanelf",
+      "version": "1.3.7-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/scanelf@1.3.7-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "sed",
+      "version": "4.9-r2",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/sed@4.9-r2?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "setarch",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/setarch@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "setpriv",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/setpriv@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "sfdisk",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-1.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/sfdisk@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "shadow",
+      "version": "4.13-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/shadow@4.13-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "skalibs",
+      "version": "2.13.1.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/skalibs@2.13.1.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "sqlite",
+      "version": "3.35.5-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/sqlite@3.35.5-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "sqlite-libs",
+      "version": "3.41.2-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "blessing"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/sqlite-libs@3.41.2-r4?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "ssl_client",
+      "version": "1.36.1-r7",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/ssl_client@1.36.1-r7?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "tar",
+      "version": "1.34-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/tar@1.34-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "tmux",
+      "version": "3.3a_git20230428-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/tmux@3.3a_git20230428-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "tree",
+      "version": "2.1.1-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/tree@2.1.1-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "tzdata",
+      "version": "2023c-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/tzdata@2023c-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "umount",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/umount@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "util-linux",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/util-linux@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "util-linux-misc",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/util-linux-misc@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "utmps-libs",
+      "version": "0.1.2.1-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/utmps-libs@0.1.2.1-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "uuidgen",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-1.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/uuidgen@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "vim",
+      "version": "9.0.2073-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Vim"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/vim@9.0.2073-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "vim-common",
+      "version": "9.0.2073-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Vim"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/vim-common@9.0.2073-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "wget",
+      "version": "1.21.4-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later WITH OpenSSL-Exception"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/wget@1.21.4-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "wipefs",
+      "version": "2.38.1-r8",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/wipefs@2.38.1-r8?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "wireguard-tools",
+      "version": "1.0.20210914-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/wireguard-tools@1.0.20210914-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "wireguard-tools-wg",
+      "version": "1.0.20210914-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/wireguard-tools-wg@1.0.20210914-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "wireguard-tools-wg-quick",
+      "version": "1.0.20210914-r3",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/wireguard-tools-wg-quick@1.0.20210914-r3?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "xxd",
+      "version": "9.0.2073-r0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Vim"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/xxd@9.0.2073-r0?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "xz-libs",
+      "version": "5.4.3-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later AND Public-Domain AND LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/xz-libs@5.4.3-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "zlib",
+      "version": "1.2.13-r1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Zlib"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/zlib@1.2.13-r1?arch=x86"
+    },
+    {
+      "type": "library",
+      "name": "zstd-libs",
+      "version": "1.5.5-r4",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:apk/alpine/zstd-libs@1.5.5-r4?arch=x86"
+    }
+  ]
+}

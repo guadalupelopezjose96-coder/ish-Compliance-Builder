@@ -1,0 +1,4 @@
+*.sha256
+fakefs-compiler/test_bundle_out/
+alpine_system_snapshot.tar.gz
+test_rootfs.tar.gz

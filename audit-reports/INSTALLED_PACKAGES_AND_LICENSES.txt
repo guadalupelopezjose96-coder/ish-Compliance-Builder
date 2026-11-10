@@ -1,0 +1,208 @@
+agetty-2.38.1-r8 | License: Public-Domain | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+alpine-baselayout-3.4.3-r1 | License: GPL-2.0-only | Arch: x86 | URL: https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout
+alpine-baselayout-data-3.4.3-r1 | License: GPL-2.0-only | Arch: x86 | URL: https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout
+alpine-keys-2.4-r1 | License: MIT | Arch: x86 | URL: https://alpinelinux.org
+apk-tools-2.14.4-r0 | License: GPL-2.0-only | Arch: x86 | URL: https://gitlab.alpinelinux.org/alpine/apk-tools
+bash-5.2.15-r5 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/bash/bash.html
+binutils-2.40-r8 | License: GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause | Arch: x86 | URL: https://www.gnu.org/software/binutils/
+blkid-2.38.1-r8 | License: LGPL-1.0-only | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+brotli-libs-1.0.9-r14 | License: MIT | Arch: x86 | URL: https://github.com/google/brotli
+build-base-0.5-r3 | License: MIT | Arch: x86 | URL: http://dev.alpinelinux.org/cgit
+busybox-1.36.1-r7 | License: GPL-2.0-only | Arch: x86 | URL: https://busybox.net/
+busybox-binsh-1.36.1-r7 | License: GPL-2.0-only | Arch: x86 | URL: https://busybox.net/
+c-ares-1.19.1-r1 | License: MIT | Arch: x86 | URL: https://c-ares.org/
+ca-certificates-20261020-r0 | License: MPL-2.0 AND MIT | Arch: x86 | URL: https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
+ca-certificates-bundle-20261020-r0 | License: MPL-2.0 AND MIT | Arch: x86 | URL: https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
+cargo-1.71.1-r0 | License: Apache-2.0 MIT UNLICENSE | Arch: x86 | URL: https://www.rust-lang.org/
+cfdisk-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+coreutils-9.3-r2 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/coreutils/
+curl-8.12.1-r0 | License: curl | Arch: x86 | URL: https://curl.se/
+dcron-4.5-r9 | License: GPL-2.0-or-later | Arch: x86 | URL: https://github.com/dubiousjim/dcron
+doas-6.8.2-r4 | License: ISC | Arch: x86 | URL: https://github.com/Duncaen/OpenDoas
+dropbear-2022.83-r2 | License: MIT | Arch: x86 | URL: https://matt.ucc.asn.au/dropbear/dropbear.html
+e2fsprogs-1.47.0-r2 | License: GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT | Arch: x86 | URL: https://e2fsprogs.sourceforge.net/
+e2fsprogs-libs-1.47.0-r2 | License: GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT | Arch: x86 | URL: https://e2fsprogs.sourceforge.net/
+file-5.45-r0 | License: BSD-2-Clause | Arch: x86 | URL: https://www.darwinsys.com/file/
+findmnt-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+findutils-4.9.0-r5 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/findutils/
+flock-2.38.1-r8 | License: MIT | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+fortify-headers-1.1-r3 | License: 0BSD | Arch: x86 | URL: http://git.2f30.org/fortify-headers/
+fstrim-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+fts-1.2.7-r1 | License: BSD-3-Clause | Arch: x86 | URL: https://github.com/pullmoll/musl-fts/
+g++-12.2.1_git20220924-r10 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gcc.gnu.org
+gawk-5.2.2-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/gawk/gawk.html
+gcc-12.2.1_git20220924-r10 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gcc.gnu.org
+gdbm-1.23-r1 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/gdbm/
+git-2.40.4-r0 | License: GPL-2.0-only | Arch: x86 | URL: https://www.git-scm.com/
+gmp-6.2.1-r3 | License: LGPL-3.0-or-later OR GPL-2.0-or-later | Arch: x86 | URL: https://gmplib.org/
+gnupg-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gnupg-dirmngr-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gnupg-gpgconf-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gnupg-keyboxd-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gnupg-utils-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gnupg-wks-client-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gnutls-3.8.4-r0 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://www.gnutls.org/
+go-1.20.11-r0 | License: BSD-3-Clause | Arch: x86 | URL: https://go.dev/
+gpg-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gpg-agent-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gpg-wks-server-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gpgsm-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+gpgv-2.4.4-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+grep-3.10-r1 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/grep/grep.html
+gzip-1.12-r1 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/gzip/
+hexdump-2.38.1-r8 | License: BSD-4-Clause-UC | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+htop-3.2.2-r1 | License: GPL-2.0-or-later | Arch: x86 | URL: https://htop.dev/
+icu-data-en-73.2-r2 | License: ICU | Arch: x86 | URL: https://icu.unicode.org/
+icu-libs-73.2-r2 | License: ICU | Arch: x86 | URL: https://icu.unicode.org/
+iproute2-6.3.0-r0 | License: GPL-2.0-or-later | Arch: x86 | URL: https://wiki.linuxfoundation.org/networking/iproute2
+iproute2-minimal-6.3.0-r0 | License: GPL-2.0-or-later | Arch: x86 | URL: https://wiki.linuxfoundation.org/networking/iproute2
+iproute2-ss-6.3.0-r0 | License: GPL-2.0-or-later | Arch: x86 | URL: https://wiki.linuxfoundation.org/networking/iproute2
+iproute2-tc-6.3.0-r0 | License: GPL-2.0-or-later | Arch: x86 | URL: https://wiki.linuxfoundation.org/networking/iproute2
+iptables-1.8.9-r2 | License: GPL-2.0-or-later | Arch: x86 | URL: https://www.netfilter.org/projects/iptables/index.html
+isl26-0.26-r1 | License: MIT | Arch: x86 | URL: http://isl.gforge.inria.fr/
+jq-1.6-r4 | License: MIT | Arch: x86 | URL: https://stedolan.github.io/jq/
+less-633-r0 | License: GPL-3.0-or-later OR BSD-2-Clause | Arch: x86 | URL: https://www.greenwoodsoftware.com/less/
+libacl-2.3.1-r3 | License: LGPL-2.1-or-later AND GPL-2.0-or-later | Arch: x86 | URL: https://savannah.nongnu.org/projects/acl
+libassuan-2.5.6-r0 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://www.gnupg.org/software/libassuan/index.html
+libatomic-12.2.1_git20220924-r10 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gcc.gnu.org
+libattr-2.5.1-r4 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://savannah.nongnu.org/projects/attr
+libblkid-2.38.1-r8 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+libbz2-1.0.8-r5 | License: bzip2-1.0.6 | Arch: x86 | URL: https://sourceware.org/bzip2/
+libc-dev-0.7.2-r5 | License: BSD-2-Clause AND BSD-3-Clause | Arch: x86 | URL: https://alpinelinux.org
+libc-utils-0.7.2-r5 | License: BSD-2-Clause AND BSD-3-Clause | Arch: x86 | URL: https://alpinelinux.org
+libcap-ng-0.8.3-r3 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://people.redhat.com/sgrubb/libcap-ng/index.html
+libcap2-2.69-r0 | License: BSD-3-Clause OR GPL-2.0-only | Arch: x86 | URL: https://sites.google.com/site/fullycapable/
+libcom_err-1.47.0-r2 | License: GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT | Arch: x86 | URL: https://e2fsprogs.sourceforge.net/
+libcrypto3-3.1.8-r0 | License: Apache-2.0 | Arch: x86 | URL: https://www.openssl.org/
+libcurl-8.12.1-r0 | License: curl | Arch: x86 | URL: https://curl.se/
+libeconf-0.5.2-r1 | License: MIT | Arch: x86 | URL: https://github.com/openSUSE/libeconf
+libedit-20221030.3.1-r1 | License: BSD-3-Clause | Arch: x86 | URL: https://www.thrysoee.dk/editline
+libelf-0.189-r2 | License: GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later ) | Arch: x86 | URL: http://elfutils.org/
+libevent-2.1.12-r6 | License: BSD-3-Clause | Arch: x86 | URL: https://libevent.org/
+libexpat-2.7.0-r0 | License: MIT | Arch: x86 | URL: https://libexpat.github.io/
+libfdisk-2.38.1-r8 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+libffi-3.4.4-r2 | License: MIT | Arch: x86 | URL: https://sourceware.org/libffi/
+libgcc-12.2.1_git20220924-r10 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gcc.gnu.org
+libgcrypt-1.10.2-r1 | License: LGPL-2.1-or-later AND GPL-2.0-or-later | Arch: x86 | URL: https://www.gnupg.org/
+libgomp-12.2.1_git20220924-r10 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gcc.gnu.org
+libgpg-error-1.47-r1 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://www.gnupg.org/
+libidn2-2.3.4-r1 | License: GPL-2.0-or-later AND LGPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/libidn#libidn2
+libintl-0.21.1-r7 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://www.gnu.org/software/gettext/gettext.html
+libksba-1.6.4-r0 | License: LGPL-3.0-only AND GPL-2.0-only AND GPL-3.0-only | Arch: x86 | URL: https://www.gnupg.org/software/libksba/index.html
+libldap-2.6.5-r0 | License: OLDAP-2.8 | Arch: x86 | URL: https://www.openldap.org/
+libmagic-5.45-r0 | License: BSD-2-Clause | Arch: x86 | URL: https://www.darwinsys.com/file/
+libmnl-1.0.5-r1 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://www.netfilter.org/projects/libmnl/
+libmount-2.38.1-r8 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+libncursesw-6.4_p20230506-r0 | License: X11 | Arch: x86 | URL: https://invisible-island.net/ncurses/
+libnftnl-1.2.5-r1 | License: GPL-2.0-or-later | Arch: x86 | URL: https://netfilter.org/projects/libnftnl
+libpanelw-6.4_p20230506-r0 | License: X11 | Arch: x86 | URL: https://invisible-island.net/ncurses/
+libpq-15.13-r0 | License: PostgreSQL | Arch: x86 | URL: https://www.postgresql.org/
+libproc2-4.0.4-r0 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gitlab.com/procps-ng/procps
+libpsl-0.21.5-r0 | License: MIT | Arch: x86 | URL: https://rockdaboot.github.io/libpsl
+libsasl-2.1.28-r4 | License: custom | Arch: x86 | URL: https://www.cyrusimap.org/sasl/
+libsmartcols-2.38.1-r8 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+libssl3-3.1.8-r0 | License: Apache-2.0 | Arch: x86 | URL: https://www.openssl.org/
+libstdc++-12.2.1_git20220924-r10 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gcc.gnu.org
+libstdc++-dev-12.2.1_git20220924-r10 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gcc.gnu.org
+libtasn1-4.20.0-r0 | License: LGPL-2.1-or-later | Arch: x86 | URL: https://www.gnu.org/software/gnutls/
+libunistring-1.1-r1 | License: GPL-2.0-or-later OR LGPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/libunistring/
+libuuid-2.38.1-r8 | License: BSD-3-Clause | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+libxml2-2.11.8-r3 | License: MIT | Arch: x86 | URL: http://www.xmlsoft.org/
+libxxhash-0.8.2-r0 | License: BSD-2-Clause | Arch: x86 | URL: https://cyan4973.github.io/xxHash/
+linux-pam-1.5.2-r10 | License: BSD-3-Clause | Arch: x86 | URL: https://www.kernel.org/pub/linux/libs/pam
+llvm16-libs-16.0.6-r1 | License: Apache-2.0 | Arch: x86 | URL: https://llvm.org/
+logger-2.38.1-r8 | License: BSD-4-Clause-UC | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+losetup-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+lsblk-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+lz4-libs-1.9.4-r4 | License: BSD-2-Clause AND GPL-2.0-only | Arch: x86 | URL: https://github.com/lz4/lz4
+make-4.4.1-r1 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/make
+mcookie-2.38.1-r8 | License: Public-Domain | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+mount-2.38.1-r8 | License: GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+mpc1-1.3.1-r1 | License: LGPL-3.0-or-later | Arch: x86 | URL: http://www.multiprecision.org/
+mpdecimal-2.5.1-r2 | License: BSD-2-Clause | Arch: x86 | URL: https://www.bytereef.org/mpdecimal/index.html
+mpfr4-4.2.0_p12-r0 | License: LGPL-3.0-or-later | Arch: x86 | URL: https://www.mpfr.org/
+musl-1.2.4-r3 | License: MIT | Arch: x86 | URL: https://musl.libc.org/
+musl-dev-1.2.4-r3 | License: MIT | Arch: x86 | URL: https://musl.libc.org/
+musl-locales-0.1.0-r1 | License: LGPL-3.0-only | Arch: x86 | URL: https://git.adelielinux.org/adelie/musl-locales/-/wikis/home
+musl-utils-1.2.4-r3 | License: MIT AND BSD-2-Clause AND GPL-2.0-or-later | Arch: x86 | URL: https://musl.libc.org/
+nano-7.2-r1 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.nano-editor.org
+ncurses-terminfo-base-6.4_p20230506-r0 | License: X11 | Arch: x86 | URL: https://invisible-island.net/ncurses/
+nettle-3.8.1-r2 | License: GPL-2.0-or-later OR LGPL-3.0-or-later | Arch: x86 | URL: https://www.lysator.liu.se/~nisse/nettle/
+nghttp2-libs-1.57.0-r0 | License: MIT | Arch: x86 | URL: https://nghttp2.org
+nginx-1.24.0-r7 | License: BSD-2-Clause | Arch: x86 | URL: https://www.nginx.org/
+nginx-vim-1.24.0-r7 | License: BSD-2-Clause | Arch: x86 | URL: https://www.nginx.org/
+nodejs-18.20.1-r0 | License: MIT | Arch: x86 | URL: https://nodejs.org/
+npm-9.6.6-r0 | License: Artistic-2.0 | Arch: x86 | URL: https://www.npmjs.com/
+npth-1.6-r4 | License: LGPL-2.0-or-later | Arch: x86 | URL: https://gnupg.org/related_software/npth/
+oniguruma-6.9.8-r1 | License: BSD-2-Clause | Arch: x86 | URL: https://github.com/kkos/oniguruma
+openresolv-3.13.2-r0 | License: BSD-2-Clause | Arch: x86 | URL: https://roy.marples.name/projects/openresolv
+openssh-9.3_p2-r4 | License: BSD | Arch: x86 | URL: https://www.openssh.com/portable.html
+openssh-client-common-9.3_p2-r4 | License: BSD | Arch: x86 | URL: https://www.openssh.com/portable.html
+openssh-client-default-9.3_p2-r4 | License: BSD | Arch: x86 | URL: https://www.openssh.com/portable.html
+openssh-keygen-9.3_p2-r4 | License: BSD | Arch: x86 | URL: https://www.openssh.com/portable.html
+openssh-server-9.3_p2-r4 | License: BSD | Arch: x86 | URL: https://www.openssh.com/portable.html
+openssh-server-common-9.3_p2-r4 | License: BSD | Arch: x86 | URL: https://www.openssh.com/portable.html
+openssh-sftp-server-9.3_p2-r4 | License: BSD | Arch: x86 | URL: https://www.openssh.com/portable.html
+openssl-3.1.8-r0 | License: Apache-2.0 | Arch: x86 | URL: https://www.openssl.org/
+p11-kit-0.24.1-r2 | License: BSD-3-Clause | Arch: x86 | URL: https://p11-glue.freedesktop.org/
+partx-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+patch-2.7.6-r10 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/patch/patch.html
+pcre-8.45-r3 | License: BSD-3-Clause | Arch: x86 | URL: https://www.pcre.org/
+pcre2-10.42-r1 | License: BSD-3-Clause | Arch: x86 | URL: https://pcre.org/
+pinentry-1.2.1-r1 | License: GPL-2.0-or-later | Arch: x86 | URL: https://www.gnupg.org/aegypten2/
+popt-1.19-r2 | License: MIT | Arch: x86 | URL: https://github.com/rpm-software-management/popt
+postgresql-client-13.11-r0 | License: PostgreSQL | Arch: x86 | URL: https://www.postgresql.org/
+procps-ng-4.0.4-r0 | License: GPL-2.0-or-later AND LGPL-2.1-or-later | Arch: x86 | URL: https://gitlab.com/procps-ng/procps
+py3-appdirs-1.4.4-r2 | License: MIT | Arch: x86 | URL: https://pypi.org/project/appdirs/
+py3-distlib-0.3.1-r3 | License: PSF-2.0 | Arch: x86 | URL: https://bitbucket.org/pypa/distlib
+py3-filelock-3.0.12-r3 | License: Unlicense | Arch: x86 | URL: https://github.com/benediktschmitt/py-filelock
+py3-packaging-23.1-r1 | License: Apache-2.0 AND BSD-2-Clause | Arch: x86 | URL: https://pypi.org/project/packaging
+py3-packaging-pyc-23.1-r1 | License: Apache-2.0 AND BSD-2-Clause | Arch: x86 | URL: https://pypi.org/project/packaging
+py3-parsing-3.0.9-r2 | License: MIT | Arch: x86 | URL: https://github.com/pyparsing/pyparsing
+py3-parsing-pyc-3.0.9-r2 | License: MIT | Arch: x86 | URL: https://github.com/pyparsing/pyparsing
+py3-pip-23.1.2-r0 | License: MIT | Arch: x86 | URL: https://pip.pypa.io
+py3-pip-pyc-23.1.2-r0 | License: MIT | Arch: x86 | URL: https://pip.pypa.io
+py3-psutil-5.9.5-r1 | License: BSD-3-Clause | Arch: x86 | URL: https://github.com/giampaolo/psutil
+py3-psutil-pyc-5.9.5-r1 | License: BSD-3-Clause | Arch: x86 | URL: https://github.com/giampaolo/psutil
+py3-setuptools-70.3.0-r0 | License: MIT | Arch: x86 | URL: https://pypi.org/project/setuptools
+py3-setuptools-pyc-70.3.0-r0 | License: MIT | Arch: x86 | URL: https://pypi.org/project/setuptools
+py3-six-1.15.0-r1 | License: MIT | Arch: x86 | URL: https://pypi.python.org/pypi/six
+py3-virtualenv-20.4.2-r1 | License: MIT | Arch: x86 | URL: https://virtualenv.pypa.io/en/latest/
+pyc-0.1-r0 | License: MIT | Arch: x86 | URL: https://alpinelinux.org
+python3-3.11.12-r1 | License: PSF-2.0 | Arch: x86 | URL: https://www.python.org/
+python3-pyc-3.11.12-r1 | License: PSF-2.0 | Arch: x86 | URL: https://www.python.org/
+python3-pycache-pyc0-3.11.12-r1 | License: PSF-2.0 | Arch: x86 | URL: https://www.python.org/
+readline-8.2.1-r1 | License: GPL-2.0-or-later | Arch: x86 | URL: https://tiswww.cwru.edu/php/chet/readline/rltop.html
+rsync-3.4.0-r0 | License: GPL-3.0-or-later | Arch: x86 | URL: https://rsync.samba.org/
+runuser-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+rust-1.71.1-r0 | License: Apache-2.0 AND MIT | Arch: x86 | URL: https://www.rust-lang.org/
+scanelf-1.3.7-r1 | License: GPL-2.0-only | Arch: x86 | URL: https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
+sed-4.9-r2 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/sed
+setarch-2.38.1-r8 | License: GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+setpriv-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+sfdisk-2.38.1-r8 | License: GPL-1.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+shadow-4.13-r4 | License: BSD-3-Clause | Arch: x86 | URL: https://github.com/shadow-maint/shadow
+skalibs-2.13.1.1-r1 | License: ISC | Arch: x86 | URL: https://skarnet.org/software/skalibs/
+sqlite-3.35.5-r0 | License: Public-Domain | Arch: x86 | URL: https://www.sqlite.org/
+sqlite-libs-3.41.2-r4 | License: blessing | Arch: x86 | URL: https://www.sqlite.org/
+ssl_client-1.36.1-r7 | License: GPL-2.0-only | Arch: x86 | URL: https://busybox.net/
+tar-1.34-r3 | License: GPL-3.0-or-later | Arch: x86 | URL: https://www.gnu.org/software/tar/
+tmux-3.3a_git20230428-r0 | License: ISC | Arch: x86 | URL: https://tmux.github.io
+tree-2.1.1-r0 | License: GPL-2.0-or-later | Arch: x86 | URL: https://oldmanprogrammer.net/source.php?dir=projects/tree
+tzdata-2023c-r0 | License: Public-Domain | Arch: x86 | URL: https://www.iana.org/time-zones
+umount-2.38.1-r8 | License: GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+util-linux-2.38.1-r8 | License: GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+util-linux-misc-2.38.1-r8 | License: GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+utmps-libs-0.1.2.1-r1 | License: ISC | Arch: x86 | URL: https://skarnet.org/software/utmps/
+uuidgen-2.38.1-r8 | License: GPL-1.0-only | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+vim-9.0.2073-r0 | License: Vim | Arch: x86 | URL: https://www.vim.org/
+vim-common-9.0.2073-r0 | License: Vim | Arch: x86 | URL: https://www.vim.org/
+wget-1.21.4-r0 | License: GPL-3.0-or-later WITH OpenSSL-Exception | Arch: x86 | URL: https://www.gnu.org/software/wget/wget.html
+wipefs-2.38.1-r8 | License: GPL-2.0-or-later | Arch: x86 | URL: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+wireguard-tools-1.0.20210914-r3 | License: GPL-2.0-only | Arch: x86 | URL: https://www.wireguard.com
+wireguard-tools-wg-1.0.20210914-r3 | License: GPL-2.0-only | Arch: x86 | URL: https://www.wireguard.com
+wireguard-tools-wg-quick-1.0.20210914-r3 | License: GPL-2.0-only | Arch: x86 | URL: https://www.wireguard.com
+xxd-9.0.2073-r0 | License: Vim | Arch: x86 | URL: https://www.vim.org/
+xz-libs-5.4.3-r1 | License: GPL-2.0-or-later AND Public-Domain AND LGPL-2.1-or-later | Arch: x86 | URL: https://tukaani.org/xz
+zlib-1.2.13-r1 | License: Zlib | Arch: x86 | URL: https://zlib.net/
+zstd-libs-1.5.5-r4 | License: BSD-3-Clause GPL-2.0-or-later | Arch: x86 | URL: https://www.zstd.net/
